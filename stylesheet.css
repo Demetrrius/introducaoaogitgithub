@@ -1,0 +1,22 @@
+*
+{
+	font-family: Georgia, "Times New Roman",Times, serif;	    
+	background-color: SlateGray;
+}
+h1
+{
+	color: #FFDEAD;
+	font-size: 2.5rem;
+	
+}
+p
+{
+	font-size: 1.5rem;
+	
+}
+address
+{
+	color: LightSteelBlue;
+	font-size: 1.2rem;
+}
+
