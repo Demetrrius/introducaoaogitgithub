@@ -8,13 +8,35 @@
 <body>
 	<p>Está pagina é somente para testarmos o Git e o Gihub
 	</ul>
+	<div>
+		<h3>Mudar de master para main</h3>
+		<li>git branch -m master main</li></br>
+		
+		<h2>Logando</h2>
+		<h3>Enviando um projeto para o  GitHub</h3>
+		<li>git init</li>
+		<li>git config --global user.name "usuario"</li>
+		<li>git config --global user.email "email.gmail.com"</li>
+		<li>git config --list  -->  pressione atecla <b>"q"</b> para sair da listagem</li></br>
+				<h3>Adiocionar e comitar a versão</h3>
+		<li>git  add . </li> 
+		<li>git commit  -m "Criando o projeto" </li> 
+		<li/>git log </li> </br>
+		
+		<h3> Reconfigurando o Github</h3>
+		<li>git config --global --unset user.mail
+		<li>git config --global --unset user.name
+		<li>git config --list
+		
+	</div></br>	
+	
 	<!-- Conteudo -->
 	<fieldset id="1"><legend>Introdução ao GIT - GITHUE</legend>
 		<h3>SHA1</h3>
-		 (Hash algorithm) Algoritmo de has seguro criptografia.<br/>
+		 <H4>(Hash algorithm) Algoritmo de has seguro criptografia.<br/></H4>
 		 <b>Comando:</b>  openssl sha1 texto.txt<br/>
 
-		<h2>Versionamento</h2>
+		<h2 >Versionamento</h2>
 		<h3><li>BLOB - Metadados</li></h3>
 		<li>tamanho 42</li>
 		 <li>\0 'Ola mundo'</li><br/><br/>
@@ -40,11 +62,11 @@
 		 </table>
 		<br/>
 
-		<h3><li>TREE - Árvore</li> </h3>
+		<h3><li>TREE - Árvore</li></h3>
 		Armazena blobs - monta toda extrutura do arquivo
-		tamanho 
-		\0
-		blobo sa4d8s texto.txt</br>		
+		tamanho </br>
+		\0 </br>
+		blob sa4d8s texto.txt</br></br>		
 		<img src="imagens/tree.jpg" width=200 height=100>
 		
 		<h3><li>COMMITS</li></h3>
@@ -75,6 +97,7 @@
 		</br>
 		O SHA1 desse commit é o hash de toda essa informação.</b>
 		</fieldset>
+		
 	
 </body>
 </html>

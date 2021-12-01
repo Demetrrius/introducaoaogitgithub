@@ -1,17 +1,46 @@
 *
 {
 	font-family: Georgia, "Times New Roman",Times, serif;	    
-	background-color: SlateGray;
+	background-color: #363636;
+	
+	
+}
+
+li,
+h4,
+h2 
+{
+	color: #A9A9A9;
+}
+
+fieldset
+
+{
+	color: #A9A9A9;
+}
+
+fieldset#h2
+{
+	color: #FFDEAD;
+}
+
+
+
+h3
+{
+	color: #FFDEAD;
+	
 }
 h1,
 legend
 {
 	color: #FFDEAD;
-	font-size: 2rem;	
+	font-size: 1.5rem;	
 }
 p
 {
 	font-size: 1.5rem;
+	color: RoyalBlue;
 	
 }
 address
@@ -26,11 +55,13 @@ table {
   text-align: center;
   table-layout: fixed;
   font-family: serif;
+  
 }
 td, th {
   border: 1px solid black;
   overflow: hidden;
   text-overflow: ellipsis;
+  color: Black;
 }
 tr,
 th
