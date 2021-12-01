@@ -3,11 +3,11 @@
 	font-family: Georgia, "Times New Roman",Times, serif;	    
 	background-color: SlateGray;
 }
-h1
+h1,
+legend
 {
 	color: #FFDEAD;
-	font-size: 2.5rem;
-	
+	font-size: 2rem;	
 }
 p
 {
@@ -19,4 +19,26 @@ address
 	color: LightSteelBlue;
 	font-size: 1.2rem;
 }
-
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid black;
+  text-align: center;
+  table-layout: fixed;
+  font-family: serif;
+}
+td, th {
+  border: 1px solid black;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+tr,
+th
+{
+	background:  #FFDEAD;
+}
+td
+{
+	background:  #eee;
+}
+	
