@@ -17,17 +17,45 @@
 		<li>git init</li>
 		<li>git config --global user.name "usuario"</li>
 		<li>git config --global user.email "email.gmail.com"</li>
+		
 		<li>git config --list  -->  pressione atecla <b>"q"</b> para sair da listagem</li></br>
-				<h3>Adiocionar e comitar a versão</h3>
+		<h3>Adiocionar e comitar a versão</h3>
 		<li>git  add . </li> 
 		<li>git commit  -m "Criando o projeto" </li> 
 		<li/>git log </li> </br>
+		<li>O repositório precisa ser criado no Github,/li>
+		<li>git remot add orign "https://repositorio"</li>
+		<li>git remot</li>
+		<li>git push orign main/master</li>
 		
 		<h3> Reconfigurando o Github</h3>
 		<li>git config --global --unset user.mail
 		<li>git config --global --unset user.name
 		<li>git config --list
 		
+		<h3>Conflitos no GitHub</h3>
+		<p>Caso o repositorio contenha um trabalho que você não o tenha localmente,
+		uma data dirente ou o conteúdo diferete, ocorerrá um erro.
+		<h5>erro: failed to push some refs to "http://"</h5>
+		<li type=square>hint: updates were rejected because the remote constains word that you do</li>
+		<li type=square>hint: not have locally. This is usually caused by another repository pushing</li>
+		<li type=square>hint: to the same ref. You may want to first integrate the remote changes</li>
+		<li type=square>hint: (e.e., 'git pull ...') before pushing again.</li>
+		<li type=square>hint: See the 'Note about fast-forwards' in 'git push --help for details.</li></h4></p>		
+		<li>git pull orign main/master</li>
+		<li> Ele irá mostra o conflito e você tera que corrigir</li>		
+		<li> git status </li>
+		</br>
+		<li type=square>on branch main/master
+		<li type=square>You have unmerged paths.
+		<li type=square>(fix conflicts and run "git commit"0
+		<li type=square>(use "git merge --abort" to abort the merge)
+		<li type=square>unmerged paths:
+		<li type=square>(use "git add <file>..." to mark resolution)
+		<li type=square>both modified: "ARQUIVO"
+		<li type=square>no changes added to commit (use "git add" and/or "git commit -a")
+		<li type=square> Basta adicionar novamente com git add. em seguida gi commit 
+		em seguida git push</li>
 	</div></br>	
 	
 	<!-- Conteudo -->

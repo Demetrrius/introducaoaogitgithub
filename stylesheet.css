@@ -6,11 +6,19 @@
 	
 }
 
+* Regras CSS diferenciadas para cores de texto */
+  .cor1 { color: RoyalBlue;}  /* azul */
+  .cor2 { color: #000000; }  /* preto */
+  .cor3 { color: #cc3300; }  /* vermelho */
 li,
 h4,
 h2 
 {
 	color: #A9A9A9;
+}
+h5
+{
+	color: #cc3300;
 }
 
 fieldset
@@ -18,13 +26,6 @@ fieldset
 {
 	color: #A9A9A9;
 }
-
-fieldset#h2
-{
-	color: #FFDEAD;
-}
-
-
 
 h3
 {
